@@ -19,7 +19,7 @@ const Card = ({ src, heading, desc }) => {
 const Why = () => {
   return (
     <div
-      className="why w-[100%] h-[100vh] text-white relative font-gemunu px-16 pt-20
+      className="why w-[100%] h-auto pb-24 text-white relative font-gemunu px-16 pt-20
     max-sm:px-6 max-sm:h-auto max-sm:pb-[50px]
     "
     >
