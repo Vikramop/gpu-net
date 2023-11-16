@@ -8,7 +8,7 @@ import bg3 from '../assets/Item3.png';
 
 const Home = () => {
   return (
-    <div className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed w-[100%] h-[90vh] font-gemunu text-white flex flex-col justify-center items-center">
+    <div className=" hero  max-sm:bg-herom bg-no-repeat bg-cover bg-center bg-fixed w-[100%] h-[90vh] font-gemunu text-white flex flex-col justify-center items-center">
       <h1
         className="text-[84px] font-bold mb-[60px]
       max-xl:text-[72px]
