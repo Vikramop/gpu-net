@@ -5,3 +5,71 @@
   background-size: cover;
   /* background-size: auto; */
 }
+
+.why {
+  background-image: url('../src/assets/sec2-bg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.card {
+  width: 342px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #878787;
+  background: #272c2d;
+  padding-bottom: 30px;
+}
+
+.card img {
+  width: 84px;
+  height: 84px;
+  top: 13px;
+  left: 27px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  left: 17px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.card p {
+  font-size: 18px;
+  font-weight: 300;
+  left: 17px;
+  position: relative;
+  width: 300px;
+}
+
+.card button {
+  position: absolute;
+  display: inline-flex;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid #265cae;
+  background: linear-gradient(
+    91deg,
+    rgba(70, 84, 208, 0.98) 6.91%,
+    rgba(29, 121, 188, 0.37) 46.39%,
+    rgba(83, 65, 192, 0.54) 87.21%
+  );
+  bottom: -30px;
+  left: 17px;
+}
+
+.network {
+  background-image: url('../src/assets/sec3-bg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
