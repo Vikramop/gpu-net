@@ -13,6 +13,49 @@
   background-size: cover;
   padding-bottom: 50px;
 }
+.now {
+  background-image: url('../src/assets/nowbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.card1 {
+  width: 1311px;
+  height: 306px;
+  border-radius: 20px;
+  border: 1px solid #878787;
+  background-image: url('../src/assets/dCard1.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat, #272c2d;
+  background-blend-mode: overlay, normal; */
+}
+
+.card2 {
+  background-image: url('../src/assets/dCard2.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.card3 {
+  background-image: url('../src/assets/dCard3.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.card2,
+.card3 {
+  width: 634px;
+  height: 310px;
+  border-radius: 20px;
+  border: 1px solid #878787;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat, #272c2d;
+  background-blend-mode: overlay, normal; */
+}
 
 .card {
   width: 342px;
@@ -115,5 +158,27 @@
   .card p {
     font-size: 16px;
     width: 210px;
+  }
+}
+
+@media (max-width: 640px) {
+  .card1 {
+    background-image: url('../src/assets/mCard1.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  .card2 {
+    background-image: url('../src/assets/mCard2.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  .card3 {
+    background-image: url('../src/assets/mCard3.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
   }
 }
