@@ -18,6 +18,7 @@ const Network = () => {
       />
       <h1
         className="text-[84px] mt-[120px] font-bold
+        max-lg:text-[80px]
       max-sm:text-[28px] max-sm:items-start max-sm:mt-[150px]
       "
       >
@@ -25,6 +26,8 @@ const Network = () => {
       </h1>
       <p
         className="text-[34px] mt-[40px] text-center w-[930px]
+        max-lg:text-[28px] max-lg:w-[700px]
+        max-md:text-[24px] max-md:w-[550px]
       max-sm:text-[18px] max-sm:items-start max-sm:w-[330px]
       "
       >
@@ -35,7 +38,10 @@ const Network = () => {
         src={img}
         alt="img"
         className="w-[1050px] mt-[120px] mb-[130px]
-      max-sm:w-[380px] max-sm:mt-[50px]
+        max-xl:w-[900px]
+        max-lg:w-[700px]
+        max-md:w-[550px]
+      max-sm:w-[350px] max-sm:mt-[50px]
       "
       />
     </div>
