@@ -24,7 +24,7 @@ const Why = () => {
     max-sm:px-6 max-sm:h-auto max-sm:pb-[50px]
     "
     >
-      <div className="2xl:w-[80vw]">
+      <div className="w-[90vw] ">
         <img
           src={bg}
           alt=""
@@ -45,7 +45,7 @@ const Why = () => {
             Why Gpu.Net?
           </h1>
           <p
-            className="text-[34px] w-[800px] mt-[42px]
+            className=" relative z-50 text-[34px] w-[90%] mt-[42px]
             2xl:ml-[10%]
             xl:ml-[8%] xl:text-[36px]
           max-sm:text-[18px] max-sm:w-[330px]
@@ -58,16 +58,16 @@ const Why = () => {
         <div
           className="mt-[92px] flex
       max-sm:flex-col max-sm:gap-20 relative
-      w-[90%] h-[75vh]
-      2xl:ml-[10%]
-      lg:ml-[-20px]
+      w-[100%] h-[70vh]
+      
       "
         >
           <Card
             src={cimg1}
             heading="MULTI PURPOSE GPU"
             desc="United GPU infrastructure that can be utilized for highly optimized 3D rendering, animation, VFX, generative AI, foundation models, LLM training and cryptocurrency mining."
-            change="left-0 absolute z-[10px]
+            change="left-0 absolute z-[10px] w-[28%]
+
             
             "
           />
@@ -75,27 +75,24 @@ const Why = () => {
             src={cimg2}
             heading="Data privacy"
             desc="Data privacy at its finest. Confidential information such as “IP or Data training” wouldn’t be accessible by GPU providers thanks to our upcoming Fully Homomorphic Encryption (FHE) technology."
-            change="left-[320px] top-[81px] absolute z-[20px]
-            xl:left-[285px]
-            lg:left-[240px]
+            change="left-[320px] top-[81px] absolute z-[20px] w-[28%] left-[25%]
+            
             "
           />
           <Card
             src={cimg3}
             heading="PROTOCOL DRIVEN PRICING"
             desc="Stake GPU tokens to guarantee uninterrupted instances for quick access from a variety of GPUs amid variable demand and availability."
-            change="left-[640px] top-[162px] absolute z-[40px] pb-[60px]
-            xl:left-[570px]
-            lg:left-[480px]
+            change="left-[640px] top-[162px] absolute z-[40px] pb-[60px] w-[28%] left-[50%]
+            
             "
           />
           <Card
             src={cimg4}
             heading="Decentralized"
             desc="By leveraging Blockchain, GPU.NET mitigates the potential risks of centralization that several web2 platforms contain and upon achieving mainnet, the degree of decentralization with our Validator proxy consensus will be greater than that of current web3 GPU players."
-            change="left-[970px] top-[243px] absolute z-[50px]
-            xl:left-[845px]
-            lg:left-[700px]
+            change="left-[970px] top-[243px] absolute z-[50px] w-[28%] left-[75%]
+           
             "
           />
         </div>

@@ -58,7 +58,7 @@
 }
 
 .card {
-  width: 342px;
+  width: 25%;
   height: auto;
   border-radius: 10px;
   position: relative;
@@ -80,6 +80,7 @@
 .card h1 {
   font-size: 28px;
   font-weight: 700;
+  width: 80%;
   left: 17px;
   position: relative;
   margin-bottom: 15px;
@@ -89,7 +90,7 @@
   font-weight: 300;
   left: 17px;
   position: relative;
-  width: 300px;
+  width: 80%;
 }
 
 .card button {
@@ -118,7 +119,14 @@
   background-size: cover;
 }
 
-@media (min-width: 1280px) {
+.comparison {
+  background-image: url('../src/assets/comparisonbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+/* @media (min-width: 1280px) {
   .card {
     width: 300px;
     padding-bottom: 30px;
@@ -159,7 +167,7 @@
     font-size: 16px;
     width: 210px;
   }
-}
+} */
 
 @media (max-width: 640px) {
   .card1 {

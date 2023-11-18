@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Why from './Components/Why';
 import Network from './Components/Network';
 import Now from './Components/Now';
+import Comparison from './Components/Comparison';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <Why /> */}
       <Network />
       <Now />
+      <Comparison />
     </div>
   );
 }
