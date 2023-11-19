@@ -7,6 +7,7 @@ import Why from './Components/Why';
 import Network from './Components/Network';
 import Now from './Components/Now';
 import Comparison from './Components/Comparison';
+import Products from './Components/Products';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Network />
       <Now />
       <Comparison />
+      <Products />
     </div>
   );
 }

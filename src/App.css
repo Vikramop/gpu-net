@@ -20,6 +20,12 @@
   background-size: cover;
   padding-bottom: 50px;
 }
+.products {
+  background-image: url('../src/assets/productsbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 
 .card1 {
   width: 1311px;
@@ -45,6 +51,16 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+}
+
+.llm {
+  background-image: url('../src/assets/llmbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  border-radius: 20px;
+  width: 634px;
+  height: 306px;
 }
 
 .card2,
