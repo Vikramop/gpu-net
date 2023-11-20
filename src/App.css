@@ -141,6 +141,12 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
+.partner {
+  background-image: url('../src/assets/partnersbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 
 /* @media (min-width: 1280px) {
   .card {
@@ -185,6 +191,25 @@
   }
 } */
 
+@media (max-width: 1280px) {
+  .llm {
+    width: 600px;
+    height: 306px;
+  }
+}
+@media (max-width: 1280px) {
+  .llm {
+    width: 570px;
+    height: 306px;
+  }
+}
+/* @media (max-width: 1280px) {
+  .llm {
+    width: 570px;
+    height: 306px;
+  }
+} */
+
 @media (max-width: 640px) {
   .card1 {
     background-image: url('../src/assets/mCard1.png');
@@ -204,5 +229,10 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+  }
+  .llm {
+    width: 350px;
+    height: 306px;
+    margin-left: 20px;
   }
 }
