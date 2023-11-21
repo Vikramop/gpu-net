@@ -19,7 +19,7 @@ const Card = ({ src, heading, desc, change }) => {
 const Why = () => {
   return (
     <div
-      className="why w-[100%] 2xl:flex 2xl:items-center 2xl:justify-center h-auto pb-24 text-white relative font-gemunu px-16 pt-20
+      className="why flex justify-center w-[100%] 2xl:flex 2xl:items-center 2xl:justify-center h-auto pb-24 text-white relative font-gemunu px-16 pt-20
       2xl:px-auto 
     max-sm:px-6 max-sm:h-auto max-sm:pb-[50px]
     "

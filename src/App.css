@@ -147,9 +147,97 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
+.new {
+  background-image: url('../src/assets/newbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.roadmap {
+  background-image: url('../src/assets/roadmapbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.social {
+  background-image: url('../src/assets/socialbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.footer {
+  background-image: url('../src/assets/footerbg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 
-/* @media (min-width: 1280px) {
-  .card {
+.gpu1 {
+  background-image: url('../src/assets/gpu1.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+  display: inline-flex;
+  padding: 33px 69px 70px 32px;
+  width: 574px;
+  height: 413px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  border-radius: 20px;
+  border: 1px solid #878787;
+}
+.gpu2,
+.gpu3 {
+  background-image: url('../src/assets/gpu2.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding: 33px 69px 70px 32px;
+  width: 566px;
+  height: 530px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #878787;
+}
+
+.whats {
+  width: 566px;
+  height: 530px;
+  padding: 33px 6px 70px 32px;
+}
+
+@media (max-width: 1280px) {
+  .gpu1 {
+    display: inline-flex;
+    padding: 33px 20px 20px 32px;
+    width: 450px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    border-radius: 20px;
+    border: 1px solid #878787;
+  }
+
+  .gpu2,
+  .gpu3 {
+    padding: 33px 69px 70px 32px;
+    width: 450px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #878787;
+  }
+
+  .whats {
+    width: 450px;
+    height: 530px;
+    padding: 33px 6px 70px 32px;
+  }
+
+  /* .card {
     width: 300px;
     padding-bottom: 30px;
   }
@@ -167,8 +255,9 @@
   .card p {
     font-size: 18px;
     width: 270px;
-  }
+  } */
 }
+/*
 @media (min-width: 1024px) {
   .card {
     width: 250px;

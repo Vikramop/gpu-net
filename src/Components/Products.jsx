@@ -20,7 +20,7 @@ const Products = () => {
           PRODUCTS COMING SOON ON GPU.NET
         </h1>
         <div
-          className="w-[600px]  divide-y-2 divide-[#9C9E9F] border-[#9C9E9F]    
+          className="w-[600px]  divide-y-2 divide-[#9C9E9F]     
           max-xl:w-[500px]  
           max-sm:w-[390px]  
         "

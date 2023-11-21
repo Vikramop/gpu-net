@@ -19,16 +19,16 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      {/* <Why /> */}
+      <Why />
       <Network />
       <Now />
       <Comparison />
       <Products />
       <Partners />
-      {/* <New /> */}
-      {/* <Roadmap /> */}
-      {/* <Social /> */}
-      {/* <Footer /> */}
+      <New />
+      <Roadmap />
+      <Social />
+      <Footer />
     </div>
   );
 }
