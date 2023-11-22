@@ -19,7 +19,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Why />
+      {/* <Why /> */}
       <Network />
       <Now />
       <Comparison />

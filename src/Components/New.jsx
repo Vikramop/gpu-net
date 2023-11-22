@@ -6,12 +6,15 @@ const New = () => {
       <div className=" my-24 w-[90vw] flex flex-col items-center justify-center">
         <div
           className="flex gap-[2%] max-xl:gap-[-4%]
-        max-xl:mb-12 "
+        max-xl:mb-12
+        max-md:flex-col 
+        "
         >
           <div className="whats ">
             <h1
               className=" text-[84px] font-bold
             max-xl:text-[72px]
+            max-lg:text-[60px]
             "
             >
               WHAT&apos;S NEW?
@@ -35,23 +38,54 @@ const New = () => {
             <p className="text-[32px] underline">Learn</p>
           </div>
         </div>
-        <div className="flex gap-8">
+        <div
+          className="flex gap-8
+         max-lg:flex-col
+        "
+        >
           <div className="gpu2 ">
-            <h1 className="text-[64px] font-bold mb-">Discover the GPU</h1>
-            <p className="text-[36px]">
+            <h1
+              className="text-[64px] font-bold 
+            max-lg:text-[54px]
+            "
+            >
+              Discover the GPU
+            </h1>
+            <p
+              className="text-[36px]
+            max-lg:text-[30px]
+            max-lg:mt-12 
+            "
+            >
               ATOM secures and governs the Cosmos Hub, the first blockchain in
               the Cosmos Network.
             </p>
-            <p className="text-[32px] underline">Stake</p>
+            <p
+              className="text-[32px] underline
+             max-lg:mt-12
+            "
+            >
+              Stake
+            </p>
           </div>
 
           <div className="gpu3">
-            <h1 className="text-[64px] font-bold">Explore the GPU ecosystem</h1>
-            <p className="text-[36px]">
+            <h1
+              className="text-[64px] font-bold
+            max-lg:text-[54px]
+            "
+            >
+              Explore the GPU ecosystem
+            </h1>
+            <p
+              className="text-[36px]
+            max-lg:text-[30px] max-lg:mt-12
+            "
+            >
               Browse the ever-expanding, diverse collection of apps, services,
               and tools built on Cosmos to date.
             </p>
-            <p className="text-[32px] underline">Discover</p>
+            <p className="text-[32px] underline  max-lg:mt-6">Discover</p>
           </div>
         </div>
       </div>

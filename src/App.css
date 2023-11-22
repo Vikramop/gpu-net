@@ -286,18 +286,36 @@
     height: 306px;
   }
 }
-@media (max-width: 1280px) {
-  .llm {
-    width: 570px;
-    height: 306px;
+@media (max-width: 1024px) {
+  .gpu1 {
+    display: inline-flex;
+    padding: 33px 20px 20px 32px;
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    border-radius: 20px;
+    border: 1px solid #878787;
+  }
+
+  .gpu2,
+  .gpu3 {
+    padding: 33px 20px 20px 32px;
+    width: 350px;
+    height: auto;
+    flex-shrink: 0;
+    gap: 48px;
+    border-radius: 20px;
+    border: 1px solid #878787;
+  }
+
+  .whats {
+    width: 350px;
+    height: 530px;
+    padding: 33px 6px 70px 32px;
   }
 }
-/* @media (max-width: 1280px) {
-  .llm {
-    width: 570px;
-    height: 306px;
-  }
-} */
 
 @media (max-width: 640px) {
   .card1 {
